@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## Unreleased
 
 
+## [192] - 2026-04-08
+### Changed
+- Update ChromeDriver to 147.0.7727.56.
+
 ## [191] - 2026-03-23
 ### Changed
 - Update ChromeDriver to 146.0.7680.165.
@@ -797,6 +801,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 - First release: Firefox v0.13.0 Chrome v2.27 IE 3.0.0
 
+[192]: https://github.com/zaproxy/zap-extensions/releases/webdriverwindows-v192
 [191]: https://github.com/zaproxy/zap-extensions/releases/webdriverwindows-v191
 [190]: https://github.com/zaproxy/zap-extensions/releases/webdriverwindows-v190
 [189]: https://github.com/zaproxy/zap-extensions/releases/webdriverwindows-v189

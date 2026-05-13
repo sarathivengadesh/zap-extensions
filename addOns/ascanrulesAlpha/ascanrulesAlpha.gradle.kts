@@ -10,7 +10,7 @@ zapAddOn {
         dependencies {
             addOns {
                 register("commonlib") {
-                    version.set(">= 1.38.0 & < 2.0.0")
+                    version.set(">= 1.40.0 & < 2.0.0")
                 }
             }
         }
@@ -29,10 +29,6 @@ zapAddOn {
             }
         }
     }
-}
-
-tasks.named("compileJava") {
-    mustRunAfter(parent!!.childProjects.get("oast")!!.tasks.named("enhance"))
 }
 
 dependencies {

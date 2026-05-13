@@ -31,5 +31,21 @@ public interface ClientCallBackImplementor {
 
     String handleCallBack(HttpMessage msg);
 
+    /**
+     * This method will be removed soon.
+     *
+     * @deprecated
+     */
+    @Deprecated
     default void browserLaunched(SeleniumScriptUtils ssutils) {}
+
+    @SuppressWarnings("deprecation")
+    default void browserLaunched(ClientCallBackUtils ccbutils) {
+        browserLaunched((SeleniumScriptUtils) ccbutils);
+    }
+
+    /**
+     * @since 0.22.0
+     */
+    default void browserClosing(ClientCallBackUtils ccbutils) {}
 }
